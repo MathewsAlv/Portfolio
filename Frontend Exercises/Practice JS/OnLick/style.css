@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+main{
+    display: flex;
+    /* border: 2px solid orange; */
+    height: 38rem;
+    width: 82vw;
+    gap: 20px;
+    position: relative;
+    left: 10%;
+}
+
+.navtool{
+    /* border:2px solid red; */
+    background-color: rgba(128, 128, 128, 0.621);
+    height: 10vh;
+    width: 80vw;
+    position: relative;
+    left: 10%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.navtool > input{
+    width: 40rem;
+    height: 1.2rem;
+    font-size: 0.5rem;
+    padding: 2px;
+    border: none;
+}
+
+.navtool > h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.midcontent{
+    /* border:2px solid black; */
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.animal1{
+    border:1px solid black;
+    height: 8.7rem;
+    width: 46rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.animal2{
+    border:1px solid black;
+    height: 8.7rem;
+    width: 46rem;
+    padding: 10px;
+}
+
+.emmid, .pmid{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+.sidecontent{
+    border:1px solid black;
+    height: 7vh;
+    width: 30vw;
+    display: flex;
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+#loginb{
+    height: 1.5rem;
+    width: 5.2rem;
+    font-size: 8px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#catb, #dogb{
+    border-radius: 12%;
+    font-size: 0.5rem;
+    height: 1.2rem;
+    width: 4rem;
+    background-color: rgba(238, 255, 0, 0.289);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#leftnavb{
+    margin-top: 10px;
+    font-size: 0.6rem;
+    color: white;
+    height: 1.7rem;
+    width: 13rem;
+    border: 1px solid black;
+    background-color: green;
+    cursor: pointer;
+}

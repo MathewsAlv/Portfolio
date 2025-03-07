@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    border: 2px solid black;
+    height: 80vh;
+    width: 75vw;
+    position: relative;
+    left:220px;
+}
+
+.fakenav{
+    background-color: grey;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.h1main{
+    /* border: 2px solid black; */
+    height: 2rem;
+    width: 70rem;
+    margin-right: 465px;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.leftside{
+    border: 2px solid blueviolet;
+    height: 30vh;
+    width: 12vw;
+    margin-top: 16px;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 11px;
+    justify-content: center;
+}
+
+.imgleft{
+    height: 128px;
+    display:flex;
+}
+
+.rightside{
+    /* border: 2px solid green; */
+    height: 62vh;
+    width: 55vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.content1, .content2, .content3{
+    border: 2px solid black;
+    height: 7rem;
+    width: 51.2rem;
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 1%;
+    font-size: 13px;
+    text-align: left;
+}
+
+.cupside{
+    height: 15vh;
+    width: 44vw;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.cdownside{
+    display: flex;
+    height: 5vh;
+    width: 10vw;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.ptext{
+    font-size: 14px;
+}
+
+.plikes1, .plikes2, .plikes3{
+    padding: 8px;
+}
+
+.hname{
+    margin-top: 20px;
+}
+
+#like1, #like2, #like3{
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    border-radius: 5%;
+    width: 60px;
+    height: 30px;
+}
+
