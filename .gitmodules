@@ -1,0 +1,3 @@
+[submodule "shopping-math"]
+	path = shopping-math
+	url = https://github.com/MathewsAlv/Shopping-Math.git
