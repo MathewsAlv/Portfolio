@@ -1,6 +1,0 @@
-[submodule "shopping-math"]
-	path = shopping-math
-	url = https://github.com/MathewsAlv/shopping-math.git
-[submodule "shopping-app"]
-	path = shopping-app
-	url = https://github.com/MathewsAlv/shopping-math.git
